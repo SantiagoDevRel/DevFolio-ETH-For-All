@@ -100,14 +100,14 @@ background: linear-gradient(32deg,#7b3fe4,#03E1FF,#DC1FFF,#7b3fe4);
     justify-items: center;
     background-color: #24252685;
     padding: 2vh 3vh 5vh 3vh;
-    margin: 7vh 50vh 7vh 50vh;
+    margin: 7vh 45vh 7vh 45vh;
     border-radius: 2vh;
     text-align: center;
     color: white;
 }
 
 .title{
-    margin-top: 7vh;
+    margin-top: 5vh;
     margin-bottom: -4vh;
     align-items: center;
     align-content: center;

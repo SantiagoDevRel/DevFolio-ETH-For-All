@@ -1,11 +1,12 @@
 .card {
     width: 30vh;
-    height: 40vh;
+    height: 36vh;
     padding: .8em;
     background: #f5f5f5;
     position: relative;
     overflow: visible;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    text-align: center;
 }
 
 .card-img {
@@ -27,7 +28,7 @@ img{
     width: 30vh;
 }
 .card-info {
-padding-top: 10%;
+padding-top: 5%;
 }
 
 svg {
@@ -36,9 +37,11 @@ height: 20px;
 }
 
 .card-footer {
+text-align: center;
 width: 100%;
 display: flex;
-justify-content: space-between;
+justify-content: center;
+column-gap: 1vh;
 align-items: center;
 padding-top: 10px;
 border-top: 1px solid #ddd;
@@ -47,13 +50,16 @@ border-top: 1px solid #ddd;
 /*Text*/
 .text-title {
 font-weight: 900;
-font-size: 1.2em;
+font-size: 100%;
 line-height: 1.5;
 }
 
 .text-body {
-font-size: .9em;
-padding-bottom: 10px;
+font-size: 90%;
+}
+
+.price{
+    text-align: center;
 }
 
 /*Button*/
@@ -88,4 +94,11 @@ background-color: #ffcaa6;
     align-items: center;
     justify-content: center;
 
+}
+
+.description{
+    color: white;
+    text-align: center;
+    margin: 3vh 1vh 1vh 1vh;
+    font-size: 2vh;
 }

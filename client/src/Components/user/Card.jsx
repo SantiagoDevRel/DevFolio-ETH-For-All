@@ -1,20 +1,19 @@
 import React from 'react';
 import styles from "./Cards.module.css"
-import photo from "../images/Hackathon.jpg"
+import photoNFT from "../images/whitephoto.jpg"
 
 function Card() {
   return (
     <>
     <div className={styles.card}>
       <div className={styles.img}>
-        <img alt="nft" src={photo}/>
+        <img alt="nft" src={photoNFT}/>
       </div>
       <div className={styles.textBox}>
-        <div className={styles.textContent}>
-          <p className={styles.h1}>ETH FOR ALL HACKATHON</p>
-        </div>
+
+        <p className={styles.h1}>ETH FOR ALL HACKATHON</p>
         <p className={styles.p}>This is an ERC721 that represents your access to the hackathon, it can be transferable up to 24 hours before the event.</p>
-        <p className={styles.p}>Xhattmahs is not attacking your base!</p>
+        <a className={styles.polyscan} href='https://mumbai.polygonscan.com/' target={'_blank'} rel="noreferrer">View in Polygonscan</a>
 
       <div>
     </div></div></div>

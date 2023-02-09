@@ -11,6 +11,7 @@ function MyAccount() {
     <>
       <NavBarUser/>
       <h2 className={styles.title}>Welcome 0x378.....5Fe7 !</h2>
+      <p className={styles.title}>Here you can see the NFTs you have purchased</p>
       <div className={styles.container}>
         <h1>Your upcoming events...</h1>
         <br></br>
