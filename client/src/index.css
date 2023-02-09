@@ -1,0 +1,13 @@
+:root {
+  --polygon: #7b3fe4;
+  --white: #ffffff;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

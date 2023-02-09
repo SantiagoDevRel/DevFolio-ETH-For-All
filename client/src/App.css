@@ -1,0 +1,16 @@
+:root {
+  --polygon: #7b3fe4;
+  --white: #ffffff;
+}
+body{
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+
+  background-image: url("./Components/images/ethBackground1.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+  box-shadow: inset 0 0 0 1000vh rgba(0, 0, 0, 0.884);
+  height: 100vh;
+ 
+}
