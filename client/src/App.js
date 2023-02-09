@@ -1,10 +1,7 @@
-import React, {useEffect, useState} from 'react'
-import NavBar from "./Components/NavBar"
+//import React, {useEffect, useState} from 'react'
 import {Routes, Route} from "react-router-dom";
 import Home from './Components/Home';
 import "./App.css"
-
-import MyAccountUser from "./Components/user/MyAccount"
 import Login from "./Components/user/Login"
 
 
@@ -15,10 +12,10 @@ import Events from './Components/user/Events';
 
 function App() {
 
-  const [isUser, setIsUser] = useState(false)
+  /* const [isUser, setIsUser] = useState(false)
   const [isOrganizer, setIsOrganizer] = useState(false)
 
-
+ */
   return (
     <>
       <Routes>
