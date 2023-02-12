@@ -8,6 +8,7 @@
     --purple: #DC1FFF;
     
 }
+
    
 .header {
     font-family: 'Abril Fatface', cursive;
@@ -29,7 +30,13 @@
     color: white;
     text-decoration: none;
 }
-  
+
+.element:hover{
+    background: linear-gradient(90deg, white, #03E1FF);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .image{
     width: 5vh;
     height: 5vh;

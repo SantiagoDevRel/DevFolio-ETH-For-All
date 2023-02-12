@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "./images/PolygonID.png"
 import styles from "./home.module.css"
+//import blextick from "./images/Blextick Logo.png"
 
 
 function Header() {

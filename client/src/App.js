@@ -5,10 +5,12 @@ import "./App.css"
 import Login from "./Components/user/Login"
 
 
-import MyAccountOrganizer from "./Components/organizer/MyAccount"
 import Marketplace from './Components/user/Marketplace';
 import MyAccount from './Components/user/MyAccount';
 import Events from './Components/user/Events';
+import LoginOrganizer from "./Components/organizer/LoginOrganizer";
+import CreateEvent from "./Components/organizer/CreateEvent";
+import MyAccountOrganizer from "./Components/organizer/MyAccountOrganizer"
 
 function App() {
 
@@ -28,13 +30,13 @@ function App() {
         <Route path="/user/marketplace" element={<Marketplace/>}/>
         <Route path="/user/myaccount" element={<MyAccount/>}/>
 
-
-        
-
         
         
          {/* Pages for the organizers */}
-        <Route path="/organizer/Login" element={<MyAccountOrganizer/>}/>
+        <Route path="/organizer/login" element={<LoginOrganizer/>}/>
+        <Route path="/organizer/create-event" element={<CreateEvent/>}/>
+        <Route path="/organizer/myaccount" element={<MyAccountOrganizer/>}/>
+
 
 
       </Routes>      

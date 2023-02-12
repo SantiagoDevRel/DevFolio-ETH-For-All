@@ -18,8 +18,6 @@ function MyAccount() {
         <div className={styles2.container}><Card/></div>
         <br></br>
         <div className={styles2.container}><Card/></div>
-        
-        
       </div>
     </>
   )

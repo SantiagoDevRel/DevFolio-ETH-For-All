@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./home.module.css"
 import NavBar from "./NavBar"
+import QR from './QR/QR'
 
 function Home() {
 
@@ -14,6 +15,7 @@ function Home() {
           <a href='./organizer/login'>
             <button className={styles.mainbutton}>
                 For Organizers</button>
+      
           </a>
         </div>
 
@@ -26,6 +28,7 @@ function Home() {
           </a>
         </div>
       </div>
+      <QR/>
     </>
   )
 }

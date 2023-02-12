@@ -1,0 +1,63 @@
+:root {
+    --polygon: #7b3fe4;
+    --dark: ##43258f,
+    --light: #733ceb;
+    --white: #ffffff;
+    --green: #00FFA3;
+    --blue:  #03E1FF;
+    --purple: #DC1FFF;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    background: linear-gradient(90deg,#7b3fe42c,#03e2ff2d,#dd1fff2f,#7b3fe42c);
+    padding: 2vh 3vh 5vh 3vh;
+    margin: 5vh 15vw 0vh 15vw;
+    border-radius: 2vh;
+    text-align: center;
+    color: white;
+}
+
+.qrcode{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 2vh;
+}
+
+.mainbuttonqr {
+    margin-top: 3vh;
+    text-decoration: none;
+    position:relative ;
+    border: none;
+    font-size: 2vh;
+    font-family: inherit;
+    color: #fff;
+    width: 20vh;
+    height: 5vh;
+    line-height: 2em;
+    text-align: center;
+    background: rgb(67,37,143);
+    background: linear-gradient(90deg,#7b3fe4,#03E1FF,#DC1FFF,#7b3fe4);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.title{
+    margin-top: 5vh;
+    margin-bottom: -4vh;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 2vh;
+    text-align: center;
+    color: white;
+}
+
+

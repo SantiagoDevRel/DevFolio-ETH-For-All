@@ -13,7 +13,7 @@ function MarketplaceCards() {
             </div>
             <div className="card-info">
                 <p className="text-title">Product title </p>
-                <p className="text-body">Product description and details</p>
+                <p className="text-title">Product description and details</p>
             </div>
 
             <div className="card-footer">

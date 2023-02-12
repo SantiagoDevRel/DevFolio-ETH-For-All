@@ -12,7 +12,7 @@ function Card() {
               <div className={styles.textBox}>
 
                 <p className={styles.h1}>ETH FOR ALL HACKATHON</p>
-                <p className={styles.p}>This is an ERC721 that represents your access to the hackathon, it can be transferable up to 24 hours before the event.</p>
+                <p className={styles.p}>This is an ERC721 collection that represents the issuing of your tickets for this event.</p>
                 <a className={styles.polyscan} href='https://mumbai.polygonscan.com/' target={'_blank'} rel="noreferrer">View in Polygonscan</a>
               <div>
           </div>

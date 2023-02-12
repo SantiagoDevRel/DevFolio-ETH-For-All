@@ -1,0 +1,70 @@
+.container{
+    width: 90%;
+    height: 20vh;
+    
+}
+
+.card {
+    background:linear-gradient(178.6deg, #242526c4 21.8%,#2425268a 83.8%);
+/*     background: linear-gradient(90deg, #4C4C4C 25%, #3E3A44 50%, #242526 100%);
+ */    
+    max-width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    backdrop-filter: blur(10px);
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+cursor: pointer;
+transform: scale(1.05);
+}
+
+.img {
+width: 15vw;
+height: 100%;
+border-radius: 10px;
+}
+
+.card:hover > .img {
+transition: 0.5s ease-in-out;
+background: linear-gradient(#9198e5, #712020);
+}
+
+.textBox {
+/* width: calc(100% - 90px);
+ */margin-left: 10px;
+color: white;
+text-align: center;
+}
+
+.textContent {
+display: flex;
+align-items: center;
+
+justify-content: center;
+}
+
+
+.h1 {
+font-size: 2vh;
+font-weight: bold;
+text-align: center;
+}
+
+.p {
+font-size: 1.5vh;
+font-weight: lighter;
+}
+
+.polyscan{
+    color: white;
+    text-decoration: underline;
+}
+
+.polyscan:hover{
+    color: var(--blue);
+}

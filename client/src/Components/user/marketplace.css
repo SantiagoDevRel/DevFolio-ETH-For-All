@@ -2,11 +2,16 @@
     width: 30vh;
     height: 36vh;
     padding: .8em;
-    background: #f5f5f5;
     position: relative;
     overflow: visible;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    /* background: #f5f5f5;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
     text-align: center;
+    background: rgb(3, 3, 3);
+    background: linear-gradient(90deg, rgba(47, 25, 102, 0.88) 0%, rgba(91, 41, 200, 0.853) 50%, rgb(3, 123, 139) 100%);
+    backdrop-filter: blur(10px);
+    transition: 0.5s ease-in-out;
+
 }
 
 .card-img {
@@ -29,6 +34,7 @@ img{
 }
 .card-info {
 padding-top: 5%;
+color: white;
 }
 
 svg {
@@ -45,10 +51,12 @@ column-gap: 1vh;
 align-items: center;
 padding-top: 10px;
 border-top: 1px solid #ddd;
+color: white;
 }
 
 /*Text*/
 .text-title {
+    color: white;
 font-weight: 900;
 font-size: 100%;
 line-height: 1.5;
@@ -56,6 +64,7 @@ line-height: 1.5;
 
 .text-body {
 font-size: 90%;
+color: rgb(255, 0, 0);
 }
 
 .price{

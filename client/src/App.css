@@ -8,7 +8,7 @@ body{
   background-image: url("./Components/images/ethBackground1.jpg");
   background-size: cover;
   background-position-y: bottom;
-  box-shadow: inset 0 0 0 100vh rgba(0, 0, 0, 0.884);
+  box-shadow: inset 0 0 0 100vh rgba(0, 0, 0, 0.401);
   height: 100vh
 }
 
@@ -17,3 +17,4 @@ body{
   font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Mono', monospace;
 }
+
