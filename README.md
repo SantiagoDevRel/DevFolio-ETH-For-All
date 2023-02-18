@@ -17,13 +17,13 @@
 The protocol uses [Hardhat](https://hardhat.org/) as a development environment and Polygon Mumbai testnet as the network.
 
 ## Flowchart User 
-![Flow chart]("./../src/Components/images/Blextick%20User.png)
+![Flow chart]("./../client/src/Components/images/Blextick%20User.png)
 
 ## Flowchart Organizer (Events creator)
-![Flow chart]("./../src/Components/images/Blextick%20Organizer.png)
+![Flow chart]("./../client/src/Components/images/Blextick%20Organizer.png)
 
 ## Diagram Issuer-Holder-Verifier
-![Flow chart]("./../src/Components/images/Diagram.png)
+![Flow chart]("./../client/src/Components/images/Diagram.png")
 
 
 ## Smart contracts
