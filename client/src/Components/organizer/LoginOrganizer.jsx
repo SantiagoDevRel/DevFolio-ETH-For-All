@@ -9,10 +9,10 @@ function LoginOrganizer() {
       <NavBar/>
       <div className={styles.mainpage}>
         <div className={styles.container}>
-            <h1>Scan your KYC Polygon ID Claim</h1>
+            <h1>Scan your BlextickPass & Connect Metamask</h1>
             <p>Your identity will be completely private thanks to ZK technology.</p>
             <a href='./myaccount' ><img className={styles.qrcode} src={QR} alt='QR'/> </a>
-            <a href='./myaccount'><button className={styles.mainbuttonqr}>Connect Wallet</button> </a>
+            <a href='./myaccount'><button className={styles.mainbuttonqr}>Connect to Metamask</button> </a>
         </div>
       </div>
     </>

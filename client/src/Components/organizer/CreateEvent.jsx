@@ -12,36 +12,36 @@ function CreateEvent() {
       <br></br>
       <div className="container">
         <form>
-          <label>Name
-            <input type="text" name="name" />
+          <label>Name*
+            <input type="text" name="name" required/>
           </label>
 
           <label>Symbol
-            <input type="text" name="symbol" />
+            <input type="text" name="symbol"  />
           </label>
           
-          <label>Location
-            <input type="text" name="location" />
+          <label>Location*
+            <input type="text" name="location" required/>
           </label>
           
-          <label>Date
-            <input type="date" name="date" />
+          <label>Date*
+            <input type="date" name="date" required/>
           </label>
 
-          <label>Hour
-            <input type="time" name="hour" />
+          <label>Hour*
+            <input type="time" name="hour"required />
           </label>
 
-          <label>Price per ticket
-            <input type="number" name="price" />
+          <label>Price per ticket*
+            <input type="number" name="price" required/>
           </label>
 
-          <label>Total supply
-            <input type="number" name="price" />
+          <label>Total supply*
+            <input type="number" name="price"required />
           </label>
 
-          <label>Max tickets per user
-            <input type="number" name="price" />
+          <label>Max tickets per user*
+            <input type="number" name="price" required/>
           </label>
 
           <button className={styles2.button} type='submit' >Create event</button>

@@ -1,0 +1,31 @@
+.title{
+    margin-top: 8px;
+    margin-bottom: 5px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 2vh;
+    text-align: center;
+    color: white;
+}
+
+
+.container{
+    margin-left: 17vw;
+    margin-right: 17vw;
+    width: 66vw;
+    column-gap: 2vw;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.shortDescription{
+    font-size: 10px;
+    color: white;
+}

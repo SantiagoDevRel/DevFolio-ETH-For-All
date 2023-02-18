@@ -3,8 +3,6 @@ import styles from "./QR.module.css"
 import {QRCodeSVG} from 'qrcode.react';
 
 
-
-
 function QR() {
 
     // update with your contract address
@@ -69,16 +67,13 @@ function QR() {
             then scan QR code within Polygon ID app to claim tokens
           </p>
   
-          <div >
+          <div className={styles.qrcodepolygon} >
             <QRCodeSVG
               level="Q"
               size={300}
               style={{ width: 300 }}
               value={JSON.stringify(qrProofRequestJson)}
-
-
             />
-
           </div>
           
           <br />

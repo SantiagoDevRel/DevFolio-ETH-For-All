@@ -7,7 +7,7 @@
     color: #7B3FE4;
 }
 
-.qrcodeZK{
+.qrcodepolygon > svg {
     width: 50vw;
     height: 50vh;
 }

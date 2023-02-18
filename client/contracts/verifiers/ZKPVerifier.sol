@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "../lib/GenesisUtils.sol";
 import "../interfaces/ICircuitValidator.sol";
 import "../interfaces/IZKPVerifier.sol";
 
 contract ZKPVerifier is IZKPVerifier, Ownable {
+    // msg.sender-> ( requestID -> is proof given )
     mapping(address => mapping(uint64 => bool)) public proofs;
+
     mapping(uint64 => ICircuitValidator.CircuitQuery) public requestQueries;
     mapping(uint64 => ICircuitValidator) public requestValidators;
 
@@ -49,9 +49,12 @@ contract ZKPVerifier is IZKPVerifier, Ownable {
         return true;
     }
 
-    function getZKPRequest(
-        uint64 requestId
-    ) external view override returns (ICircuitValidator.CircuitQuery memory) {
+    function getZKPRequest(uint64 requestId)
+        external
+        view
+        override
+        returns (ICircuitValidator.CircuitQuery memory)
+    {
         return requestQueries[requestId];
     }
 

@@ -1,10 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.0;
 
-/* import "solidity-bytes-utils/contracts/BytesLib.sol";
- */
-
-import "./BytesLib.sol";
+import "solidity-bytes-utils/contracts/BytesLib.sol";
 
 library GenesisUtils {
     /**
@@ -77,9 +74,11 @@ library GenesisUtils {
     /**
      * @dev bytesToHexString
      */
-    function bytesToHexString(
-        bytes memory buffer
-    ) internal pure returns (string memory) {
+    function bytesToHexString(bytes memory buffer)
+        internal
+        pure
+        returns (string memory)
+    {
         // Fixed buffer size for hexadecimal convertion
         bytes memory converted = new bytes(buffer.length * 2);
 
@@ -96,10 +95,11 @@ library GenesisUtils {
     /**
      * @dev compareStrings
      */
-    function compareStrings(
-        string memory a,
-        string memory b
-    ) internal pure returns (bool) {
+    function compareStrings(string memory a, string memory b)
+        internal
+        pure
+        returns (bool)
+    {
         return (keccak256(abi.encodePacked((a))) ==
             keccak256(abi.encodePacked((b))));
     }
@@ -107,10 +107,11 @@ library GenesisUtils {
     /**
      * @dev isGenesisState
      */
-    function isGenesisState(
-        uint256 id,
-        uint256 idState
-    ) internal pure returns (bool) {
+    function isGenesisState(uint256 id, uint256 idState)
+        internal
+        pure
+        returns (bool)
+    {
         uint256 userSwappedState = reverse(idState);
 
         bytes memory userStateB1 = int256ToBytes(userSwappedState);
@@ -142,9 +143,11 @@ library GenesisUtils {
     /**
      * @dev toUint256
      */
-    function toUint256(
-        bytes memory _bytes
-    ) internal pure returns (uint256 value) {
+    function toUint256(bytes memory _bytes)
+        internal
+        pure
+        returns (uint256 value)
+    {
         assembly {
             value := mload(add(_bytes, 0x20))
         }
@@ -153,9 +156,11 @@ library GenesisUtils {
     /**
      * @dev bytesToAddress
      */
-    function bytesToAddress(
-        bytes memory bys
-    ) internal pure returns (address addr) {
+    function bytesToAddress(bytes memory bys)
+        internal
+        pure
+        returns (address addr)
+    {
         assembly {
             addr := mload(add(bys, 20))
         }

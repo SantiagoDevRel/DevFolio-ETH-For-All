@@ -1,3 +1,5 @@
+// @author Blextick (Santiago Trujillo Zuluaga)
+
 //import React, {useEffect, useState} from 'react'
 import {Routes, Route} from "react-router-dom";
 import Home from './Components/Home';
@@ -11,6 +13,7 @@ import Events from './Components/user/Events';
 import LoginOrganizer from "./Components/organizer/LoginOrganizer";
 import CreateEvent from "./Components/organizer/CreateEvent";
 import MyAccountOrganizer from "./Components/organizer/MyAccountOrganizer"
+import BlextickPlus from "./Components/user/BlextickPlus/BlextickPlus";
 
 function App() {
 
@@ -28,6 +31,7 @@ function App() {
         <Route path="/user/events" element={<Events/>}/>
         <Route path="/user/login" element={<Login/>}/>
         <Route path="/user/marketplace" element={<Marketplace/>}/>
+        <Route path="/user/blextickPlus" element={<BlextickPlus/>}/>
         <Route path="/user/myaccount" element={<MyAccount/>}/>
 
         

@@ -1,22 +1,30 @@
-const hre = require("hardhat");
-
 async function main() {
-  const verifierContract ="BlextickPassv1"
-  const verifierName = "Blextickv1";
-  const verifierSymbol = "BLEXv1"; 
-  const ERC20Verifier = await hre.ethers.getContractFactory(verifierContract);
-  const erc20Verifier = await ERC20Verifier.deploy(
+  const verifierName = "zkEventTickets";
+  const verifierSymbol = "zkTickets";
+  const date = "1000000000000000";
+  const price = "1";
+  const maxSupply = "1000";
+  const maxTicketUser = "2";
+  const baseURI = "http://";
+  const organizer = "0x4B229Ed260cc6AA763c17C412162d46f2b4caF52";
+  const Event = await ethers.getContractFactory("Event");
+  const event = await Event.deploy(
     verifierName,
-    verifierSymbol
+    verifierSymbol,
+    date,
+    price,
+    maxSupply,
+    maxTicketUser,
+    baseURI,
+    organizer
   );
 
-  await erc20Verifier.deployed();
-  console.log(verifierName, " deployed to:", erc20Verifier.address);
+  await event.deployed();
+  console.log(" tx hash:", event.address);
 }
-
-// We recommend this pattern to be able to use async/await everywhere
-// and properly handle errors.
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+main()
+  .then(() => process.exit(0))
+  .catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });

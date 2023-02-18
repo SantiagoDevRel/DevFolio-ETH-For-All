@@ -11,7 +11,7 @@ function NavBarOrganizer() {
 
             <a href='/' className={styles.element}>Home</a>
             <a href='./create-event' className={styles.element}>Create an event</a>
-            <a href='./myaccount' className={styles.element}>My Events</a>
+            <a href='./myaccount' className={styles.element}>My Account</a>
             <button className={styles.mainbutton}>Disconnect</button>
       </div>
     </div>

@@ -1,23 +1,23 @@
 import React from 'react';
-import styles from "./Events.module.css"
-import photoNFT from "../images/Stadium.jpg"
+import styles from "./UserStyles/Events.module.css"
 import {ReactComponent as  MaticLogo} from "../images/matic.svg"
 
 
-function CardEvents() {
+
+
+function CardEvents(props) {
   return (
     <>
     <div className={styles.card}>
       <div className={styles.img}>
-        <img alt="nft" src={photoNFT}/>
+        <img alt="nft" src={props.image}/>
       </div>
-    <p className={styles.title}>Real Madrid vs Barcelona</p>
+    <p className={styles.title}>{props.title}</p>
       <div className={styles.textBox}>
-
-        <p className={styles.p} >Date <br></br>30/03/2023</p>
-        <p className={styles.p}>Location <br></br>Santiago Bernabeu</p>
-        <p className={styles.p}>Price <br></br>150<svg> <MaticLogo/></svg></p>
-        <p className={styles.p}>1 ticket per person</p>
+        <p className={styles.p}>Date:<br></br>{props.date}</p>
+        <p className={styles.p}>Location: <br></br>{props.location}</p>
+        <p className={styles.p}>Condition:<br></br>{props.condition}</p>
+        <p className={styles.p}>Price: <br></br>{props.price}<svg> <MaticLogo/></svg></p>
 
       <div>
     </div></div></div>

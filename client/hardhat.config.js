@@ -5,7 +5,7 @@ const {PRIVATE_KEY, PolygonScanKey} = process.env
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.17",
+  solidity: "0.8.18",
   defaultNetwork: "polygon_mumbai",
   networks: {
     hardhat: {

@@ -1,0 +1,133 @@
+.card {
+    width: 30vh;
+    height: 36vh;
+    padding: .8em;
+    position: relative;
+    overflow: visible;
+    /* background: #f5f5f5;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+    text-align: center;
+    background: rgb(3, 3, 3);
+    background: linear-gradient(90deg, #8247e5 50%, #03E1FF 100%);
+    backdrop-filter: blur(10px);
+    transition: 0.5s ease-in-out;
+
+}
+
+.card-img {
+background-color: #ffcaa6;
+height: 40%;
+width: 100%;
+border-radius: .5rem;
+transition: .3s ease;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.imageEvent{
+    width: 30vh;
+}
+.card-info {
+padding-top: 5%;
+color: white;
+}
+
+svg {
+width: 20px;
+height: 20px;
+}
+
+.card-footer {
+text-align: center;
+width: 100%;
+display: flex;
+justify-content: center;
+column-gap: 1vh;
+align-items: center;
+padding-top: 10px;
+border-top: 1px solid #ddd;
+color: white;
+}
+
+/*Text*/
+.text-title {
+    color: white;
+font-weight: 900;
+font-size: 100%;
+line-height: 1.5;
+}
+
+.text-body {
+font-size: 90%;
+color: rgb(255, 0, 0);
+}
+
+.price{
+    text-align: center;
+}
+
+/*Button*/
+.card-button {
+border: 1px solid #252525;
+display: flex;
+padding: .3em;
+cursor: pointer;
+border-radius: 50px;
+transition: .3s ease-in-out;
+}
+
+/*Hover*/
+.card-img:hover {
+transform: translateY(-25%);
+box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+}
+
+.card-button:hover {
+border: 1px solid #ffcaa6;
+background-color: #ffcaa6;
+}
+
+
+.marketplaceNFTs{
+    display: flex;
+    flex-direction: row;
+    margin: 5vh 25vh 10vh 25vh;
+    column-gap: 3vh;
+    row-gap: 2vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.description{
+    color: white;
+    text-align: center;
+    margin: 3vh 1vh 1vh 1vh;
+    font-size: 2vh;
+}
+
+.descriptionMarketplace{
+    color: rgba(0, 0, 0, 0.719);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -4vh;
+}
+
+.descriptionEvents{
+    color: rgba(0, 0, 0, 0.719);
+    font-weight: bold;
+    text-align: center;
+}
+
+.descriptionPlus{
+    color: rgba(0, 0, 0, 0.719);
+    font-weight: bold;
+    text-align: center;
+
+}
