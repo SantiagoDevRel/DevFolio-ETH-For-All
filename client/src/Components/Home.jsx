@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from "./home.module.css"
 import NavBar from "./NavBar"
-import QR from './QR/QR'
 
 function Home() {
 
