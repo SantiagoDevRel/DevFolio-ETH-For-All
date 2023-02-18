@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/DevFolio-ETH-For-All/static/css/main.851e5dfa.css",
+    "main.js": "/DevFolio-ETH-For-All/static/js/main.c141bc29.js",
+    "static/media/bcn.jpg": "/DevFolio-ETH-For-All/static/media/bcn.c449198579d252eda2e3.jpg",
+    "static/media/nba.jpg": "/DevFolio-ETH-For-All/static/media/nba.582a1eea87863cd992d6.jpg",
+    "static/media/hackathon1.jpg": "/DevFolio-ETH-For-All/static/media/hackathon1.2216b5c30a3833e92ce7.jpg",
+    "static/media/golf.jpg": "/DevFolio-ETH-For-All/static/media/golf.b614b70bb6ba59d86348.jpg",
+    "static/media/hackathon2.jpg": "/DevFolio-ETH-For-All/static/media/hackathon2.1024d9ab372c519e25aa.jpg",
+    "static/media/rugby.jpg": "/DevFolio-ETH-For-All/static/media/rugby.59d3538971f5f8a5f38c.jpg",
+    "static/media/cricket.jpg": "/DevFolio-ETH-For-All/static/media/cricket.981170e315934b65162f.jpg",
+    "static/media/kissconcert.jpg": "/DevFolio-ETH-For-All/static/media/kissconcert.e6099911345637ee3e00.jpg",
+    "static/media/NoNameBand.jpg": "/DevFolio-ETH-For-All/static/media/NoNameBand.c96c644b1a11bd628981.jpg",
+    "static/media/ethBackground1.jpg": "/DevFolio-ETH-For-All/static/media/ethBackground1.ff63a52dc48746d97240.jpg",
+    "static/media/baseball.jpg": "/DevFolio-ETH-For-All/static/media/baseball.9b0018beeb14a2e20ae7.jpg",
+    "static/media/gnsconcert.jpg": "/DevFolio-ETH-For-All/static/media/gnsconcert.1cf26d97e91df3224d8c.jpg",
+    "static/media/fa-solid-900.ttf": "/DevFolio-ETH-For-All/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/QR_Polygon.png": "/DevFolio-ETH-For-All/static/media/QR_Polygon.afe733a1c673e2d8b515.png",
+    "static/media/fa-brands-400.ttf": "/DevFolio-ETH-For-All/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/DevFolio-ETH-For-All/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/fa-brands-400.woff2": "/DevFolio-ETH-For-All/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/cricket-team.webp": "/DevFolio-ETH-For-All/static/media/cricket-team.7c85608f01536227f0f2.webp",
+    "static/media/fa-regular-400.ttf": "/DevFolio-ETH-For-All/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/ind-vs-au.jpg": "/DevFolio-ETH-For-All/static/media/ind-vs-au.9471d24e28cbfd135cc3.jpg",
+    "static/media/fa-regular-400.woff2": "/DevFolio-ETH-For-All/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/PolygonID.png": "/DevFolio-ETH-For-All/static/media/PolygonID.0e73f5966f974f23751b.png",
+    "static/media/fa-v4compatibility.ttf": "/DevFolio-ETH-For-All/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/DevFolio-ETH-For-All/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "static/media/matic.svg": "/DevFolio-ETH-For-All/static/media/matic.1cd4a336f19e65d2edc91965837bc8b9.svg",
+    "index.html": "/DevFolio-ETH-For-All/index.html",
+    "main.851e5dfa.css.map": "/DevFolio-ETH-For-All/static/css/main.851e5dfa.css.map",
+    "main.c141bc29.js.map": "/DevFolio-ETH-For-All/static/js/main.c141bc29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.851e5dfa.css",
+    "static/js/main.c141bc29.js"
+  ]
+}
