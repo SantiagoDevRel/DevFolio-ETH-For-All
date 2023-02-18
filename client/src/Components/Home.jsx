@@ -28,7 +28,6 @@ function Home() {
           </a>
         </div>
       </div>
-      <QR/>
     </>
   )
 }
