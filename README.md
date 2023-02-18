@@ -23,7 +23,7 @@ The protocol uses [Hardhat](https://hardhat.org/) as a development environment a
 ![Flow chart]("./../client/src/Components/images/Blextick%20Organizer.png)
 
 ## Diagram Issuer-Holder-Verifier
-![Flow chart]("./../client/src/Components/images/Diagram.png")
+![Flow chart]("./../client/src/Components/images/diagram.png")
 
 
 ## Smart contracts
